@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/BookYourShow/static/css/main.2c22d8b7.css",
+    "main.js": "/BookYourShow/static/js/main.bfe17187.js",
+    "static/media/movie7.jpg": "/BookYourShow/static/media/movie7.fe4890326dc18e29f2e2.jpg",
+    "static/media/movie3.jpg": "/BookYourShow/static/media/movie3.8038df7f0afb7cdd7ea9.jpg",
+    "static/media/movie4.jpg": "/BookYourShow/static/media/movie4.d3778e97accad3cebb4c.jpg",
+    "static/media/movie5.jpg": "/BookYourShow/static/media/movie5.8b31d858eb1522b454d9.jpg",
+    "static/media/movie1.jpg": "/BookYourShow/static/media/movie1.48efc805e8f24cb49188.jpg",
+    "static/media/movie2.jpg": "/BookYourShow/static/media/movie2.4f88828d107c1ffdfa3b.jpg",
+    "static/media/movie6.jpg": "/BookYourShow/static/media/movie6.6361109011be40438a20.jpg",
+    "static/media/movie8.jpeg": "/BookYourShow/static/media/movie8.8fe0b3dd3fc80a1a003f.jpeg",
+    "index.html": "/BookYourShow/index.html",
+    "main.2c22d8b7.css.map": "/BookYourShow/static/css/main.2c22d8b7.css.map",
+    "main.bfe17187.js.map": "/BookYourShow/static/js/main.bfe17187.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c22d8b7.css",
+    "static/js/main.bfe17187.js"
+  ]
+}
