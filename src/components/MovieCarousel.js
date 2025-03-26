@@ -11,14 +11,14 @@ import movie8 from "../images/movie8.jpeg";
 //import "./MovieCarousel.css";
 
 const movies = [
-  { id: 1, title: "Movie 1", genre: "Action | Adventure", image: movie1, time: "7:30 PM", price: "₹450" },
-  { id: 2, title: "Movie 2", genre: "Drama | Romance", image: movie2, time: "9:00 PM", price: "₹350" },
-  { id: 3, title: "Movie 3", genre: "Comedy | Family", image: movie3, time: "6:00 PM", price: "₹400" },
-  { id: 4, title: "Movie 4", genre: "Sci-Fi | Thriller", image: movie4, time: "8:00 PM", price: "₹500" },
-  { id: 5, title: "Movie 5", genre: "Fantasy | Adventure", image: movie5, time: "5:30 PM", price: "₹300" },
-  { id: 6, title: "Movie 6", genre: "Horror | Mystery", image: movie6, time: "10:00 PM", price: "₹550" },
-  { id: 7, title: "Movie 7", genre: "Thriller | Crime", image: movie7, time: "4:00 PM", price: "₹200" },
-  { id: 8, title: "Movie 8", genre: "Animation | Family", image: movie8, time: "3:30 PM", price: "₹150" },
+  { id: 1, title: "The Archer", genre: "Action | Adventure", image: movie1, time: "7:30 PM", price: "₹450" },
+  { id: 2, title: "Titanic", genre: "Drama | Romance", image: movie2, time: "9:00 PM", price: "₹350" },
+  { id: 3, title: "Kungfu Panda 3", genre: "Comedy | Family", image: movie3, time: "6:00 PM", price: "₹400" },
+  { id: 4, title: "Invaded", genre: "Sci-Fi | Thriller", image: movie4, time: "8:00 PM", price: "₹500" },
+  { id: 5, title: "The Hobbit", genre: "Fantasy | Adventure", image: movie5, time: "5:30 PM", price: "₹300" },
+  { id: 6, title: "The Ruins", genre: "Horror | Mystery", image: movie6, time: "10:00 PM", price: "₹550" },
+  { id: 7, title: "Sin City", genre: "Thriller | Crime", image: movie7, time: "4:00 PM", price: "₹200" },
+  { id: 8, title: "The Incredibles", genre: "Animation | Family", image: movie8, time: "3:30 PM", price: "₹150" },
 ];
 
 const MovieCarousel = () => {

@@ -24,6 +24,35 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Carousel Arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background for contrast */
+  border-radius: 50%; /* Rounded shape */
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: ''; /* Remove default Bootstrap arrow */
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.carousel-control-prev-icon::before {
+  border-width: 8px 10px 8px 0; /* Custom arrow dimensions */
+  border-color: transparent white transparent transparent; /* White arrow */
+}
+
+.carousel-control-next-icon::before {
+  border-width: 8px 0 8px 10px; /* Custom arrow dimensions */
+  border-color: transparent transparent transparent white; /* White arrow */
+}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Arial', sans-serif;
