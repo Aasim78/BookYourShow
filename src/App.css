@@ -1,59 +1,64 @@
-
+/* General Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
 }
 
-
+/* Image Styles */
 .card-img,
 .carousel-item img {
   height: 300px;
   width: auto;
   max-width: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card-img:hover,
+.carousel-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
 
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Arial', sans-serif;
+  margin: 0;
 }
-
-
-.container-fluid {
-  padding: 0;
-}
-
 
 .now-showing {
   text-align: center;
   margin: 20px 0;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
 }
 
-
+/* Movie Card Styles */
 .card {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 10px;
   margin: 10px;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
-
 
 .movie-title {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
+  color: #333;
 }
 
 .movie-genre {
@@ -63,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-
+/* Layout Adjustments */
 .row {
   display: flex;
   justify-content: center;
@@ -76,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
 }
 
+/* Footer Styles */
 .footer {
   background: linear-gradient(90deg, #ff8a00, #e52e71);
   color: #ffffff;
@@ -123,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Header Styles */
 .header {
   background: linear-gradient(90deg, #ff8a00, #e52e71);
   color: #ffffff;
@@ -166,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 8px rgba(255, 221, 0, 0.8);
 }
 
+/* Hero Section */
 .hero {
   background: linear-gradient(to right, #6a11cb, #2575fc);
   color: #ffffff;
@@ -173,11 +181,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 100px 0;
   position: relative;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .hero .hero-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -206,4 +214,25 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
   transform: translateY(-3px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-search {
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease;
+}
+
+.header-search:focus {
+  box-shadow: 0 0 8px rgba(255, 221, 0, 0.8);
+}
+
+.search-button {
+  font-size: 1rem;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #ffdd00;
+  color: #000;
 }
